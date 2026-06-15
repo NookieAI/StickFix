@@ -1,10 +1,8 @@
-<img width="622" height="832" alt="image" src="https://github.com/user-attachments/assets/4243491e-351e-4a55-a1ec-a06d49cdf353" />
-
-
 # StickFix — R36 Max analog-stick + LED fix (AURKNIX / ROCKNIX)
 
-If your **XiFan R36 Max** has dead analog sticks (or a dead power LED) on the
-latest **AURKNIX** — or on stock **ROCKNIX** — this fixes it. The sticks read
+If your **XiFan R36 Max** has dead analog sticks (or a dead power LED) on
+**AURKNIX** or **ROCKNIX**, this fixes it. (The R36 Max ships with EmuELEC; this is
+for units that have been upgraded to AURKNIX/ROCKNIX.) The sticks read
 the full range again and the power LED lights while the unit is on.
 
 It ships two ways. Use whichever you like:
@@ -160,7 +158,7 @@ saved before you started.
 
 ## Credits
 
-Made by **Nookie** · Northern Rivers I.T.
+Made by **Nookie**
 
 Built and verified on a real R36 Max running AURKNIX. The deep dive on *why* each
 change is needed (and why direction can only be fixed on-device) is in
