@@ -1,3 +1,6 @@
+<img width="622" height="832" alt="image" src="https://github.com/user-attachments/assets/4243491e-351e-4a55-a1ec-a06d49cdf353" />
+
+
 # StickFix — R36 Max analog-stick + LED fix (AURKNIX / ROCKNIX)
 
 If your **XiFan R36 Max** has dead analog sticks (or a dead power LED) on the
