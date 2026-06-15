@@ -1,13 +1,11 @@
-<img width="622" height="832" alt="image" src="https://github.com/user-attachments/assets/e8019f00-9fac-49a7-b238-3201a82a73c5" />
-
 # StickFix
 
 **Fix dead or drifting analog sticks — and a dead power light — on the XiFan R36 Max.**
 One small Windows app, one click. It backs up first, so it's safe.
 
-<!-- Optional: add a screenshot to the repo and uncomment the next line
-![StickFix](screenshot.png)
--->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e8019f00-9fac-49a7-b238-3201a82a73c5" width="380" alt="StickFix">
+</p>
 
 ---
 
@@ -89,4 +87,3 @@ EmuELEC. Keep the backup it makes. It's reversible, but you are modifying your o
 ---
 
 StickFix v3.0 — made by **Nookie**.
-
