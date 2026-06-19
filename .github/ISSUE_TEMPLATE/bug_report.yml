@@ -1,0 +1,61 @@
+name: Bug report
+description: Sticks or the power light still not working, or something went wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! A few details make it much easier to help.
+  - type: dropdown
+    id: console
+    attributes:
+      label: Console
+      options:
+        - XiFan R36 Max
+        - Other (say which below)
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Which OS is on the card?
+      options:
+        - ROCKNIX
+        - AURKNIX
+        - EmuELEC (stock)
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: how
+    attributes:
+      label: How did you run it?
+      options:
+        - StickFix.exe (the app)
+        - Just the patched .dtb file
+        - python StickFix.py
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens?
+      description: >
+        What do the sticks / power light do BEFORE and AFTER running StickFix? Be specific —
+        e.g. "left stick pushed up moves the cursor right", or "power light still off".
+      placeholder: |
+        Before: …
+        After: …
+    validations:
+      required: true
+  - type: textarea
+    id: activity
+    attributes:
+      label: Activity log / inspect output (optional)
+      description: >
+        Copy the text from the app's Activity box, or run
+        `StickFix.exe inspect <your dtb>` and paste the result.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: StickFix version
+      placeholder: e.g. 4.0 (shown top-right in the app, or `StickFix.exe --version`)
