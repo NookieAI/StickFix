@@ -1,0 +1,29 @@
+StickFix — R36 Max analog-stick + LED repair
+Copyright (c) 2026 Nookie. All rights reserved.
+
+This software and its source code (including StickFix.py, the build scripts, the
+documentation, and the reference device-trees) are the property of the author.
+
+No permission is granted to copy, modify, distribute, sublicense, sell, or create
+derivative works of this software, in source or compiled form, without the prior
+written permission of the author. You may download and run the provided program
+for your own personal use with your own hardware.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. You use it at your own
+risk; it backs up before it changes anything and refuses to touch a dtb that is
+not an R36-class target.
+
+------------------------------------------------------------------------------
+Third-party component
+------------------------------------------------------------------------------
+StickFix.py vendors a small subset of python-fdt
+(https://github.com/molejar/pyFDT), Copyright (c) 2017 Martin Olejar, used under
+its own license (Apache License 2.0). That component remains under its original
+license; its copyright notice and license text are preserved inline in the
+relevant section of StickFix.py. The "all rights reserved" terms above apply to
+the StickFix-authored portions of this project, not to that third-party code.

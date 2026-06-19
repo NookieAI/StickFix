@@ -19,6 +19,19 @@ It works by correcting one small settings file on your SD card. It does **not** 
 OS and it does **not** touch your games — and it **backs up the original first**, so you can
 undo it any time.
 
+## New in 4.0
+
+- **Turn the power light on or off.** Like it lit while you play, or prefer it dark to save a
+  little battery? Your call — the **Power LED** switch (or leave it on, same as before).
+- **One-tap stick feel.** Presets for a fresh stick, a slightly drifty one, or a worn, drifty
+  one — pick from the **Feel** menu instead of guessing at numbers.
+- **See it before you commit.** **Preview changes** shows exactly what it'll do without
+  writing anything, and **Verify card** later confirms a fix is still in place.
+- **Fix a stick that points the wrong way.** Crossed, reversed, or left/right-swapped sticks
+  can now be corrected too (see the FAQ).
+
+Same one-click repair as always underneath — these are just extra controls when you want them.
+
 ## Is this for me?
 
 **Yes** — if all of these are true:
@@ -64,8 +77,9 @@ StickFix only works on the R36 Max's settings file. If the card is for a differe
 isn't a ROCKNIX/AURKNIX card — it safely refuses rather than touch the wrong thing.
 
 **My sticks work but point the wrong way (push up, cursor goes right).**
-That's a different issue (stick *direction*), and this tool doesn't change it. Open an
-[issue](../../issues) and say exactly which stick does what.
+That's stick *direction* — and 4.0 **can** fix it now (swap the left/right sticks, or flip an
+axis). It's a quick command rather than a button, so open an [issue](../../issues) with which
+stick does what and I'll give you the exact line for your unit.
 
 **Will it mess up my games or my card?**
 No. It edits one settings file on the boot partition and saves a backup of the original first.
@@ -86,4 +100,4 @@ EmuELEC. Keep the backup it makes. It's reversible, but you are modifying your o
 
 ---
 
-StickFix v3.0 — made by **Nookie**.
+StickFix v4.0 — made by **Nookie**.
