@@ -4,7 +4,7 @@
 One small Windows app, one click. It backs up first, so it's safe.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e8019f00-9fac-49a7-b238-3201a82a73c5" width="380" alt="StickFix">
+<img width="662" height="920" alt="image" src="https://github.com/user-attachments/assets/05ad2f06-b2d0-4944-ae7b-2400bca221b9" />
 </p>
 
 ---
