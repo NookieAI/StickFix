@@ -1,5 +1,8 @@
 # StickFix
 
+[![Latest Release](https://img.shields.io/github/v/release/NookieAI/StickFix?label=latest&color=2ea44f)](https://github.com/NookieAI/StickFix/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/NookieAI/StickFix/total?color=2ea44f)](https://github.com/NookieAI/StickFix/releases)
+
 **Fix dead or drifting analog sticks — and a dead power light — on the XiFan R36 Max.**
 One small Windows app, one click. It backs up first, so it's safe.
 
